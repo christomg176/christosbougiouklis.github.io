@@ -3,59 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 30px; background-color: #f4f4f4; }
-        h1, h2 { color: #333; }
-        .container { max-width: 800px; margin: auto; background: white; padding: 20px; border-radius: 10px; }
-        .project { background: #ddd; padding: 10px; margin: 10px 0; border-radius: 5px; }
-        .contact { margin-top: 20px; }
-        a { color: blue; text-decoration: none; font-weight: bold; }
-    </style>
+    <title>Portfolio of Christos Bougiouklis</title>
 </head>
 <body>
-
-    <div class="container">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Hi, I'm Christos, a passionate learner in Data Science, Cybersecurity, and Technology.</p>
-
-        <!-- About Section -->
-        <h2>About Me</h2>
-        <p>I am currently studying Data Science & Machine Learning and have a strong interest in Cybersecurity. I love working on projects that combine analytical thinking and problem-solving.</p>
-
-        <!-- Projects Section -->
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project 1: Data Analysis Dashboard</h3>
-            <p>Created a Python-based dashboard for analyzing datasets using Pandas and Matplotlib.</p>
-            <a href="https://github.com/yourusername/project1" target="_blank">View on GitHub</a>
-        </div>
-        <div class="project">
-            <h3>Project 2: Cybersecurity CTF Challenges</h3>
-            <p>Participated in Capture The Flag (CTF) challenges, focusing on ethical hacking and penetration testing.</p>
-            <a href="https://tryhackme.com/p/yourusername" target="_blank">View TryHackMe Profile</a>
-        </div>
-
-        <!-- Skills Section -->
-        <h2>Skills</h2>
-        <ul>
-            <li>Data Science & Machine Learning</li>
-            <li>Python, SQL, and R</li>
-            <li>Cybersecurity Fundamentals</li>
-            <li>Linux & Ethical Hacking</li>
-            <li>Web Development (HTML, CSS)</li>
-        </ul>
-
-        <!-- Contact Section -->
-        <div class="contact">
-            <h2>Contact</h2>
-            <p>📧 Email: xristosbougiouklis94@gmail.com@example.com</p>
-            <p>💼 LinkedIn: <a href="https://www.linkedin.com/in/christos-bougiouklis-951761276 target="_blank">View Profile</a></p>
-            <p>🐙 GitHub: <a href="https://github.com/christosbougiouklis.github.io
-" target="_blank">View My Work</a></p>
-        </div>
-    </div>
-
+    <h1>Portfolio of Christos Bougiouklis</h1>
+    <h2>Available Files</h2>
+    <ul>
+        <li><a href="Apply filters to SQL queries.pdf" target="_blank">Apply filters to SQL queries.pdf</a></li>
+        <li><a href="Applying the NIST CSF .pdf" target="_blank">Applying the NIST CSF.pdf</a></li>
+        <li><a href="Botium Toys_Scope, goals, and risk assessment.pdf" target="_blank">Botium Toys Scope & Risk Assessment</a></li>
+        <li><a href="Completed incident handler's journal.docx" target="_blank">Incident Handler's Journal</a></li>
+        <li><a href="Controls and compliance checklist.pdf" target="_blank">Controls & Compliance Checklist</a></li>
+        <li><a href="Cybersecurity incident report.pdf" target="_blank">Cybersecurity Incident Report</a></li>
+        <li><a href="Security risk assessment report.pdf" target="_blank">Security Risk Assessment Report</a></li>
+        <li><a href="Vulnerability assessment report.pdf" target="_blank">Vulnerability Assessment Report</a></li>
+        <li><a href="Wireshark TCP_HTTP log.pdf" target="_blank">Wireshark TCP HTTP Log</a></li>
+    </ul>
 </body>
 </html>
-
