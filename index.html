@@ -60,7 +60,6 @@
 
   <div class="container">
 
-    <!-- 👤 BIO / ABOUT ME SECTION -->
     <div class="bio">
       <h1>Christos Bougiouklis</h1>
       <p>Hi, I'm a Data Science and Machine Learning student with a background in <b>Spatial Planning and Development</b>. Currently, I am specializing in <b>Cybersecurity</b> through the Google Cybersecurity Certificate program.</p>
@@ -97,7 +96,6 @@
       <p>🐙 GitHub: <a href="https://christomg176.github.io/christosbougiouklis.github.io/" target="_blank">My GitHub Portfolio</a></p>
     </div>
 
-    <!-- 🔍 CYBERSECURITY REPORTS -->
     <h2>Cybersecurity Reports</h2>
     <div class="report"><h3>Security Incident Report</h3><a href="Security incident report.pdf" target="_blank">View Report</a></div>
     <div class="report"><h3>Wireshark TCP-HTTP Log Analysis</h3><a href="Wireshark TCP_HTTP log.pdf" target="_blank">View Report</a></div>
@@ -105,16 +103,10 @@
     <div class="report"><h3>Incident Report Analysis</h3><a href="Incident report analysis.pdf" target="_blank">View Report</a></div>
     <div class="report"><h3>Vulnerability Assessment</h3><a href="Vulnerability assessment report.pdf" target="_blank">View Report</a></div>
 
- 
-    <!-- 📊 DATA SCIENCE REPORTS -->
     <h2>Data Science Reports</h2>
     <div class="report"><h3>SQL Query Optimization</h3><a href="Apply filters to SQL queries.pdf" target="_blank">View Report</a></div>
 
-
-    <!-- 🤖 MACHINE LEARNING PROJECTS -->
     <h2>Machine Learning Projects (Code Preview + Download)</h2>
-
-    <!-- Best Model Pipeline -->
     <div class="report">
       <h3>Best Model Pipeline</h3>
       <a href="best model pipeline.py" target="_blank">📥 Download</a>
@@ -135,97 +127,36 @@ grid.fit(X_train, y_train)
       </code></pre>
     </div>
 
-    <!-- Neural Network -->
+    <div class="report"><h3>Neural Network</h3><a href="NEURAL NETWORK.py" target="_blank">📥 Download</a></div>
+    <div class="report"><h3>Decision Tree Classifier</h3><a href="tree.py" target="_blank">📥 Download</a></div>
+    <div class="report"><h3>K-Nearest Neighbors (KNN)</h3><a href="KNN.py" target="_blank">📥 Download</a></div>
+    <div class="report"><h3>Polynomial Regression</h3><a href="Polynomial regression.py" target="_blank">📥 Download</a></div>
+    <div class="report"><h3>Linear Regression</h3><a href="linear regression.py" target="_blank">📥 Download</a></div>
+    <div class="report"><h3>CNN on MNIST</h3><a href="CNN_mnist.py" target="_blank">📥 Download</a></div>
+    <div class="report"><h3>Neural Network - Sequential API (Keras)</h3><a href="NN SEQUENTIAL(KERAS).py" target="_blank">📥 Download</a></div>
+    <div class="report"><h3>Neural Network - Functional API (Keras)</h3><a href="NN FUNCTIONAL (KERAS).py" target="_blank">📥 Download</a></div>
+
+    <!-- GPT Transformer -->
     <div class="report">
-      <h3>Neural Network</h3>
-      <a href="NEURAL NETWORK.py" target="_blank">📥 Download</a>
+      <h3>GPT-Style Text Generator</h3>
+      <a href="gpt.py" target="_blank">📥 Download</a>
       <pre><code>
-from keras.models import Sequential
-from keras.layers import Dense
-
-model = Sequential()
-model.add(Dense(16, activation='relu', input_shape=(X.shape[1],)))
-model.add(Dense(8, activation='relu'))
-model.add(Dense(1, activation='sigmoid'))
-
-model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
-model.fit(X_train, y_train, epochs=50, batch_size=16)
+# GPT architecture built using TensorFlow and Keras for next-token prediction
+# Includes embedding layers, positional encoding, and transformer decoder blocks.
       </code></pre>
     </div>
 
-    <!-- Decision Tree -->
+    <!-- U-Net Image Segmentation -->
     <div class="report">
-      <h3>Decision Tree Classifier</h3>
-      <a href="tree.py" target="_blank">📥 Download</a>
+      <h3>Computer Vision — Image Segmentation with U-Net</h3>
+      <a href="Image Segmentation with U-Net class.py" target="_blank">📥 Download</a>
       <pre><code>
-from sklearn.tree import DecisionTreeClassifier
-
-clf = DecisionTreeClassifier(max_depth=3)
-clf.fit(X_train, y_train)
-predictions = clf.predict(X_test)
+# A U-Net architecture for semantic segmentation tasks using Keras.
+# Applied to datasets such as medical images or masks.
       </code></pre>
     </div>
 
-    <!-- KNN -->
-    <div class="report">
-      <h3>K-Nearest Neighbors (KNN)</h3>
-      <a href="KNN.py" target="_blank">📥 Download</a>
-      <pre><code>
-from sklearn.neighbors import KNeighborsClassifier
-
-knn = KNeighborsClassifier(n_neighbors=5)
-knn.fit(X_train, y_train)
-y_pred = knn.predict(X_test)
-      </code></pre>
-    </div>
-
-    <!-- Polynomial Regression -->
-    <div class="report">
-      <h3>Polynomial Regression</h3>
-      <a href="Polynomial regression.py" target="_blank">📥 Download</a>
-      <pre><code>
-from sklearn.preprocessing import PolynomialFeatures
-from sklearn.linear_model import LinearRegression
-
-poly = PolynomialFeatures(degree=2)
-X_poly = poly.fit_transform(X)
-model = LinearRegression()
-model.fit(X_poly, y)
-      </code></pre>
-    </div>
-
-    <!-- Linear Regression -->
-    <div class="report">
-      <h3>Linear Regression</h3>
-      <a href="linear regression.py" target="_blank">📥 Download</a>
-      <pre><code>
-from sklearn.linear_model import LinearRegression
-
-model = LinearRegression()
-model.fit(X_train, y_train)
-predictions = model.predict(X_test)
-      </code></pre>
-    </div>
-
-    <!-- CNN MNIST -->
-    <div class="report">
-      <h3>CNN on MNIST</h3>
-      <a href="CNN_mnist.py" target="_blank">📥 Download</a>
-    </div>
-
-    <!-- NN Sequential (Keras) -->
-    <div class="report">
-      <h3>Neural Network - Sequential API (Keras)</h3>
-      <a href="NN SEQUENTIAL(KERAS).py" target="_blank">📥 Download</a>
-    </div>
-
-    <!-- NN Functional (Keras) -->
-    <div class="report">
-      <h3>Neural Network - Functional API (Keras)</h3>
-      <a href="NN FUNCTIONAL (KERAS).py" target="_blank">📥 Download</a>
-    </div>
-
-  </div> <!-- Closing .container -->
+  </div>
 
 </body>
 </html>
