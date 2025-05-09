@@ -107,26 +107,7 @@
     <div class="report"><h3>SQL Query Optimization</h3><a href="Apply filters to SQL queries.pdf" target="_blank">View Report</a></div>
 
     <h2>Machine Learning Projects (Code Preview + Download)</h2>
-    <div class="report">
-      <h3>Best Model Pipeline</h3>
-      <a href="best model pipeline.py" target="_blank">📥 Download</a>
-      <pre><code>
-from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import StandardScaler
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.model_selection import GridSearchCV
-
-pipeline = Pipeline([
-    ('scaler', StandardScaler()),
-    ('clf', RandomForestClassifier())
-])
-
-param_grid = {'clf__n_estimators': [100, 200], 'clf__max_depth': [5, 10]}
-grid = GridSearchCV(pipeline, param_grid, cv=5)
-grid.fit(X_train, y_train)
-      </code></pre>
-    </div>
-
+    <div class="report"><h3>Best Model Pipeline</h3><a href="best model pipeline.py" target="_blank">📥 Download</a></div>
     <div class="report"><h3>Neural Network</h3><a href="NEURAL NETWORK.py" target="_blank">📥 Download</a></div>
     <div class="report"><h3>Decision Tree Classifier</h3><a href="tree.py" target="_blank">📥 Download</a></div>
     <div class="report"><h3>K-Nearest Neighbors (KNN)</h3><a href="KNN.py" target="_blank">📥 Download</a></div>
@@ -136,7 +117,6 @@ grid.fit(X_train, y_train)
     <div class="report"><h3>Neural Network - Sequential API (Keras)</h3><a href="NN SEQUENTIAL(KERAS).py" target="_blank">📥 Download</a></div>
     <div class="report"><h3>Neural Network - Functional API (Keras)</h3><a href="NN FUNCTIONAL (KERAS).py" target="_blank">📥 Download</a></div>
 
-    <!-- GPT Transformer -->
     <div class="report">
       <h3>GPT-Style Text Generator</h3>
       <a href="gpt.py" target="_blank">📥 Download</a>
@@ -146,13 +126,22 @@ grid.fit(X_train, y_train)
       </code></pre>
     </div>
 
-    <!-- U-Net Image Segmentation -->
     <div class="report">
       <h3>Computer Vision — Image Segmentation with U-Net</h3>
       <a href="Image Segmentation with U-Net class.py" target="_blank">📥 Download</a>
       <pre><code>
 # A U-Net architecture for semantic segmentation tasks using Keras.
 # Applied to datasets such as medical images or masks.
+      </code></pre>
+    </div>
+
+    <div class="report">
+      <h3>Autoencoder for MNIST Digit Reconstruction</h3>
+      <a href="autoencoder.py" target="_blank">📥 Download</a>
+      <pre><code>
+# Convolutional Autoencoder using Keras for unsupervised digit reconstruction
+# Trained on MNIST dataset with early stopping and model checkpointing
+# Includes encoder with Conv2D + MaxPooling and decoder with Conv2D + UpSampling
       </code></pre>
     </div>
 
