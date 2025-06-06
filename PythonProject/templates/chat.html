@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>3D GenAI Chat</title>
+    <!-- Using absolute path with url_for -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div id="chat-container">
+        <div id="messages"></div>
+        <input type="text" id="prompt" placeholder="Ask something...">
+        <button onclick="askAI()">Ask</button>
+    </div>
+    <div id="3d-container"></div>
+
+    <!-- Using absolute path with url_for -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+</body>
+</html>
