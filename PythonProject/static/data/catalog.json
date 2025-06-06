@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Iris Dataset",
+    "source": "UCI ML Repository",
+    "domain": "Scientific",
+    "license": "CC BY 4.0",
+    "path": "static/data/iris_clean.csv"
+  },
+  {
+    "name": "Sketchfab Molecules",
+    "source": "Sketchfab API",
+    "domain": "3D Models",
+    "license": "CC BY",
+    "cache": "cache.db"
+  }
+]
